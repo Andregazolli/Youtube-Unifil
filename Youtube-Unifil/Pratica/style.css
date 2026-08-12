@@ -1,0 +1,63 @@
+*{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cab-ini {
+    display: flex;
+    gap: 16px;
+    
+}
+
+.logotipo-icone {
+    color: rgb(255, 0, 0);
+}
+
+.logotipo-pais {
+    font-size: 8px;
+    color: rgb(67, 67, 67);
+}
+
+.logotipo {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+}
+
+.search-input {
+    border: 1px solid grey;
+    outline: none;
+    height: 32px;
+    width: 300px;
+    border-radius: 16px 0px 0px 16px;
+}
+
+.search-button {
+    width: 50px;
+    height: 32px;
+    border-radius: 0px 16px 16px 0px;
+}
+
+.microphone {
+    height: 32px;
+    width: 32px;
+    border: 1px solid grey;
+    border-radius: 50%;
+}
+
+.cab-meio{
+    display: flex;
+    gap: 8px;
+}
+
+
