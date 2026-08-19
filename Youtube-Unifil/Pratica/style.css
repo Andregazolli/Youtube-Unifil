@@ -8,12 +8,19 @@
 .cabecalho {
     display: flex;
     justify-content: space-between;
+    padding: 15px;
+    zoom: 120%;
 }
 
 .cab-ini {
     display: flex;
     gap: 16px;
     
+}
+
+.cab-fim {
+    display: flex;
+    gap: 10px;
 }
 
 .logotipo-icone {
@@ -25,9 +32,37 @@
     color: rgb(67, 67, 67);
 }
 
+.logotipo-video { 
+    border-radius: 50%;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.logotipo-video:hover {
+    color: rgb(255, 0, 0);
+    background-color: black;
+}
+
+.logotipos {
+    display: flex;
+    flex-direction: row;
+}
+
+.logotipo-nome {
+    font-weight: bold;
+}
+
+.logotipo-nome:hover {
+    color: rgb(255, 0, 0);
+}
+
+
 .logotipo {
     display: flex;
     align-items: center;
+    gap: 15px;
 }
 
 .search {
@@ -40,6 +75,8 @@
     height: 32px;
     width: 300px;
     border-radius: 16px 0px 0px 16px;
+    font-size: 110%;
+    padding: 12px;
 }
 
 .search-button {
